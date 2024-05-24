@@ -2,12 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import FAQ from '../components/vue/FAQ.vue';
 import Restaurante from '../components/vue/Restaurante.vue';
+import Plantillas from '../components/vue/Plantillas.vue';
+import Practica from '../components/vue/Practica.vue'
 ---
 
 <Layout title="Welcome to Astro.">
 
 	<FAQ client:load/>
 	<Restaurante client:load/>
+	<Plantillas client:load/>
+	<Practica client:load/>
+
 	
 </Layout>
 
