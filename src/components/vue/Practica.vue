@@ -31,11 +31,11 @@ const lista = [
                     <p class=" bg-white m-4 -mt-5">
                         {{ tema.desc }}
                     </p>
-                    <p class="text-xs text-gray-400 bg-white m-4 -mt-5">
+                    <p class="text-xs text-gray-20000 bg-gray-500 m-4 -mt-5">
                         {{ tema.time }}
                     </p>
                 </div>
-                <div @click="validate[index].tema = !validate[index].tema" class="flex cursor-pointer h-1/3 justify-end text-xs w-1/2 text-gray-400">
+                <div @click="validate[index].tema = !validate[index].tema" class="flex cursor-pointer h-1/3 justify-end text-xs w-1/2 text-gray-800">
                     <p v-if="validate[index].tema">
                         Marcar como leído
                     </p>
